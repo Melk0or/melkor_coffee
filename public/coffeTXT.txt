@@ -1,0 +1,12 @@
+cofee_1 - name: Chocolat Viennois Signature, desc: Chocolat chaud parsemé de poudre de cacao.
+cofee_2 - name: Chocolat Viennois Classique, desc: Lait chauffé à la vapeur mélangé à un sirop saveur chocolat.
+cofee_3 - name: Chocolat Viennois Classique Glacé, desc: Lait froid mélangé à un sirop saveur chocolat.
+cofee_4 - name: Frappuccino® - Choco Chip, desc: Sauce saveur chocolat et pépites de chocolat Frappuccino® combinées à du sirop saveur café et du lait, mélangés à de la glace pilée, garnis de crème fouettée et d'un filet de sirop saveur chocolat.
+cofee_5 - name: Frappuccino® - Coffee, desc: Café torréfié Frappuccino® et lait, mélangés à de la glace pilée, recouvert d'une crème fouettée.
+cofee_6 - name: TeavanaTM - Matcha Green Tea Latte, desc: Thé vert matcha mélangé à du lait.
+cofee_7 - name: TeavanaTM - Chai Tea Latte, desc: Un latte chaud et aromatique au thé Chai, merveilleusement doux et épicé.
+cofee_8 - name: TeavanaTM - Youthberry Tea, desc: Infusion sucrée d'ananas et d'açai avec une note florale subtile, mélangée à du thé blanc.
+cofee_9 - name: Latte Macchiato, desc: Du lait chaud taché d'un espresso.
+cofee_10 - name: Caramel Macchiato, desc: Du lait chaud saveur vanille taché d'un espresso surmonté d'un nappage saveur caramel.
+cofee_11 - name: Cappuccino, desc: Un espresso surmonté d'une onctueuse couche de mousse de lait.
+cofee_12 - name: Iced Cappuccino, desc: Espresso sucré et mousse onctueuse de lait froid - Disponible avec un espresso non sucré.

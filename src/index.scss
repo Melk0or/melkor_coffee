@@ -1,0 +1,139 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html, body, #root, .root {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: thin; //для мозилы
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+    background-color: #9bff8c;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 60px;
+    background-color: #fff;
+}
+
+
+
+main {
+    flex-grow: 1;
+    margin-bottom: 40px;
+
+    .container {
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+}
+
+.mainInner {
+
+    padding: 30px 0;
+
+    h1 {
+        color: #000;
+        font-size: 32px;
+        font-weight: 800;
+        letter-spacing: 0.32px;
+    }
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+//.cart {
+//    padding: 90px 0;
+//}
+
+.cartMainInner {
+    padding: 90px 0;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.cartTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .cartTitleInner {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        h2 {
+            color: #000;
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 0.32px;
+        }
+
+        img {
+            transform: translateY(-2px);
+        }
+    }
+
+    .eraseCart {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        cursor: pointer;
+
+        svg {
+            path {
+                transition: .2s ease-in-out;
+            }
+        }
+
+        span {
+            color: #B6B6B6;
+            font-size: 16px;
+            font-weight: 400;
+            transition: .2s ease-in-out;
+        }
+
+        &:hover {
+            svg {
+                path {
+                    stroke: black;
+                }
+            }
+            span {
+                color: #000000;
+            }
+        }
+    }
+
+}
+
+
+

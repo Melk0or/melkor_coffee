@@ -1,0 +1,83 @@
+
+
+.card {
+
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  align-items: center;
+  width: 100%;
+
+  img {
+    max-width: 130px;
+  }
+}
+
+.cardDescription {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.cardAmount {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  span {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.22px;
+  }
+
+  svg {
+    cursor: pointer;
+    circle {
+      transition: .2s ease-in-out;
+    }
+    path {
+      transition: .2s ease-in-out;
+
+    }
+  }
+
+  svg:hover{
+    circle {
+      fill : #9bff8c;
+    }
+    path {
+      fill: white;
+    }
+  }
+}
+
+
+.cardPrice {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.22px;
+}
+
+.deleteCard {
+
+  svg {
+    cursor: pointer;
+    circle {
+      transition: .2s ease-in-out;
+    }
+    path {
+      transition: .2s ease-in-out;
+
+    }
+  }
+
+  svg:hover{
+    circle {
+      fill : #000000;
+      stroke: #000000;
+    }
+    path {
+      fill: #fff;
+    }
+  }
+}

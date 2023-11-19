@@ -1,0 +1,44 @@
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 60px;
+  background-color: #fff;
+}
+
+.chooseInner {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+
+  .chooseButtons {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 35px 0;
+    gap: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    li {
+      color: #000000;
+      padding: 10px 20px;
+      border-radius: 30px;
+      flex: 1 1 59px;
+      background: #f9f9f9;
+      cursor: pointer;
+      transition: 0.2s ease-in-out;
+
+      &:hover {
+        color: #fff;
+        background-color: #000000;
+      }
+    }
+  }
+}
+
+.active {
+  color: #fff !important;
+  background-color: #000000 !important;
+}

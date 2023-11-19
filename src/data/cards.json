@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Signature Viennese Chocolate",
+    "url": "./images/coffee_1.jpg",
+    "price": 430,
+    "isSugary": false,
+    "size": 0,
+    "amount": 0,
+    "rating": 10,
+    "categories": 1,
+    "id": "1"
+  },
+  {
+    "title": "Classic Viennese Chocolate",
+    "url": "./images/coffee_2.jpg",
+    "price": 521,
+    "isSugary": false,
+    "size": 0,
+    "amount": 0,
+    "rating": 12,
+    "categories": 1,
+    "id": "2"
+  },
+  {
+    "title": "Classic Iced Viennese Chocolate",
+    "url": "./images/coffee_3.jpg",
+    "price": 1299,
+    "isSugary": false,
+    "size": 0,
+    "amount": 0,
+    "rating": 3,
+    "categories": 1,
+    "id": "3"
+  },
+  {
+    "title": "Frappuccino® - Choco Chip",
+    "url": "./images/coffee_4.jpg",
+    "price": 440,
+    "isSugary": false,
+    "size": 0,
+    "amount": 0,
+    "categories": 2,
+    "rating": 6,
+    "id": "4"
+  },
+  {
+    "title": "Frappuccino® - Coffee",
+    "url": "./images/coffee_5.jpg",
+    "price": 550,
+    "isSugary": false,
+    "size": 0,
+    "amount": 0,
+    "categories": 2,
+    "rating": 5,
+    "id": "5"
+  },
+  {
+    "title": "TeavanaTM - Matcha Green Tea Latte",
+    "url": "./images/coffee_6.jpg",
+    "price": 580,
+    "isSugary": false,
+    "size": 0,
+    "amount": 0,
+    "rating": 8,
+    "categories": 3,
+    "id": "6"
+  },
+  {
+    "title": "TeavanaTM - Chai Tea Latte",
+    "url": "./images/coffee_7.jpg",
+    "price": 690,
+    "isSugary": false,
+    "size": 0,
+    "amount": 0,
+    "categories": 3,
+    "rating": 1,
+    "id": "7"
+  },
+  {
+    "title": "TeavanaTM - Youthberry Tea",
+    "url": "./images/coffee_8.jpg",
+    "price": 390,
+    "isSugary": false,
+    "size": 0,
+    "amount": 0,
+    "categories": 3,
+    "rating": 0,
+    "id": "8"
+  },
+  {
+    "title": "Latte Macchiato",
+    "url": "./images/coffee_9.jpg",
+    "price": 265,
+    "isSugary": false,
+    "size": 0,
+    "amount": 0,
+    "rating": 2,
+    "categories": 4,
+    "id": "9"
+  },
+  {
+    "title": "Caramel Macchiato",
+    "url": "./images/coffee_10.jpg",
+    "price": 199,
+    "isSugary": false,
+    "size": 0,
+    "amount": 0,
+    "rating": 5,
+    "categories": 4,
+    "id": "10"
+  },
+  {
+    "title": "Cappuccino",
+    "url": "./images/coffee_11.jpg",
+    "price": 710,
+    "isSugary": false,
+    "size": 0,
+    "amount": 0,
+    "rating": 9,
+    "categories": 5,
+    "id": "11"
+  },
+  {
+    "title": "Iced Cappuccino",
+    "url": "./images/coffee_12.jpg",
+    "price": 499,
+    "isSugary": false,
+    "size": 0,
+    "amount": 0,
+    "rating": 11,
+    "categories": 5,
+    "id": "12"
+  }
+]

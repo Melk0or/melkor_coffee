@@ -1,0 +1,118 @@
+.card {
+  max-width: 300px;
+  flex: 1 1 250px;
+
+  img {
+    width: 100%;
+  }
+  h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    max-height: 25px;
+    //overflow: auto;
+  }
+}
+
+.cardOption {
+  text-align: center;
+  padding: 5px;
+  background-color: #F3F3F3;
+  margin-top: 20px;
+  border-radius: 10px;
+
+  span {
+    cursor: pointer;
+
+  }
+
+  div {
+    padding: 7px 0;
+    color: #2C2C2C;
+    font-size: 14px;
+    font-weight: 800;
+  }
+  div:first-child {
+    position: relative;
+    z-index: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 7px;
+
+     div {
+      position: absolute;
+      z-index: -1;
+      border-radius: 7px;
+      height: 100%;
+      width: 50%;
+      background-color: #fff;
+      transition: .4s ease-in-out;
+    }
+  }
+  div:last-child {
+    position: relative;
+    z-index: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    div {
+      position: absolute;
+      z-index: -1;
+      left: 0;
+      border-radius: 7px;
+      height: 100%;
+      width: calc(100%/3);
+      background-color: #fff;
+      transition: .4s ease-in-out;
+    }
+  }
+}
+
+
+.cardPrice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 17px;
+
+  span:first-child {
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 0.33px;
+  }
+}
+
+
+.cardAddButton {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  max-width: 150px;
+  gap: 8px;
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: 1px solid #1ec51a;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+
+  span:nth-child(2) {
+    color: #1ec51a;
+    font-size: 13px;
+    font-weight: 800;
+  }
+
+  span:last-child {
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 3px 7px;
+    border-radius: 50%;
+    background-color: #1ec51a;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+
