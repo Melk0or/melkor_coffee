@@ -1,9 +1,12 @@
 .card {
   max-width: 300px;
   flex: 1 1 250px;
+  transition: .2s ease-in-out;
+  padding: 5px;
 
   img {
     width: 100%;
+
   }
   h2 {
     text-align: center;
@@ -12,6 +15,13 @@
     max-height: 25px;
     //overflow: auto;
   }
+
+  &:hover {
+    transform: translateY(-7px);
+    border-radius: 20px;
+    box-shadow: (0 0 20px rgba(21, 21, 21, 0.15));
+  }
+
 }
 
 .cardOption {
